@@ -92,6 +92,15 @@ row.is-flex {
     margin-bottom: 0;
     padding-top: 0;
     color: black;
+    background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/light-blue-1920x1080.jpg') no-repeat center center fixed;
+}
+
+#contact-jumbotron {
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: black;
 }
 
 body {
