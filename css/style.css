@@ -1,20 +1,20 @@
 body {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 #about-me-pic {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 row.is-flex {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row.is-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -25,85 +25,87 @@ row.is-flex {
 */
 
 .row.is-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .row.is-flex > [class*='col-'] {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 #about-me-pic {
-  margin: auto;
+    margin: auto;
 }
 
 .jumbotron {
-  color: floralwhite;
+    color: floralwhite;
 }
 
 .jumbotron {
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #home-jumbotron {
-  margin-bottom: 0;
-  padding-top: 0;
-  background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/cool-light-blue-backgrounds-1.jpg') no-repeat center center fixed;
+    margin-bottom: 0;
+    padding-top: 0;
+    background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/cool-light-blue-backgrounds-1.jpg') no-repeat center center fixed;
 }
 
 @media only screen and (min-width: 1200px) {
-  #home-jumbotron {
-    background-size: 100%;
-  }
-  
-  #portfolio-jumbotron {
-    background-size: 100%;
-  }
+    #home-jumbotron {
+        background-size: 100%;
+    }
+    #portfolio-jumbotron {
+        background-size: 100%;
+    }
 }
 
 #portfolio-jumbotron {
-  margin-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  color: black;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: black;
     background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/Portfolio%20Background%20Edited.jpg') no-repeat center center fixed;
 }
 
 #skills-jumbotron {
-  margin-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  color: black;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: black;
 }
 
 body {
-  position: relative;
+    position: relative;
 }
 
 .white-text {
-  color: white;
+    color: white;
 }
 
 .skill {
-  padding: 5px;
-} 
+    padding: 5px;
+}
 
+.my-pic {
+    border: 0;
+}
