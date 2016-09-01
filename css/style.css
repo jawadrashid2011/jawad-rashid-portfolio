@@ -65,7 +65,7 @@ row.is-flex {
 #home-jumbotron {
     margin-bottom: 0;
     padding-top: 0;
-    background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/cool-light-blue-backgrounds-1.jpg') no-repeat center center fixed;
+    background: url('http://res.cloudinary.com/jawadrashid/image/upload/v1472722082/Portfolio/Website%20Backgrounds/cool-light-blue-backgrounds-1.jpg') no-repeat center center fixed;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -83,7 +83,7 @@ row.is-flex {
     margin-bottom: 0;
     padding-top: 0;
     color: black;
-    background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/Portfolio%20Background%20Edited.jpg') no-repeat center center fixed;
+    background: url('http://res.cloudinary.com/jawadrashid/image/upload/v1472722089/Portfolio/Website%20Backgrounds/Portfolio_Background_Edited.jpg') no-repeat center center fixed;
 }
 
 #skills-jumbotron {
@@ -92,7 +92,7 @@ row.is-flex {
     margin-bottom: 0;
     padding-top: 0;
     color: black;
-    background: url('https://dl.dropboxusercontent.com/u/160103/Website%20Backgrounds/light-blue-1920x1080.jpg') no-repeat center center fixed;
+    background: url('http://res.cloudinary.com/jawadrashid/image/upload/v1472722100/Portfolio/Website%20Backgrounds/light-blue-1920x1080.jpg') no-repeat center center fixed;
 }
 
 #contact-jumbotron {
