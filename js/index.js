@@ -1,6 +1,8 @@
+var clickedValue = '';
 $(".mainnav a").on("click", function() {
     $(".mainnav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
+    clickedValue = $(this).attr('href').substring(1);
 });
 
 $(function() {
@@ -33,7 +35,14 @@ $(document).ready(function() {
 });
 
 var shiftWindow = function() {
-    scrollBy(0, -50)
+    var scrollVal = -50;
+    if(clickedValue == 'contact-jumbotron') {
+        scrollVal = 0;
+    }
+    else if(clickedValue == 'skills-jumbotron') {
+        scrollVal = -45;
+    }
+    scrollBy(0, scrollVal)
 };
 if (location.hash) shiftWindow();
 window.addEventListener("hashchange", shiftWindow);
