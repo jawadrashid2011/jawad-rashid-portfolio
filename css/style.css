@@ -101,6 +101,12 @@ row.is-flex {
     margin-bottom: 0;
     padding-top: 0;
     color: black;
+    background-color: white;
+    /* background: url('http://res.cloudinary.com/jawadrashid/image/upload/v1472722100/Portfolio/Website%20Backgrounds/light-blue-1920x1080.jpg') no-repeat center center fixed; */
+}
+
+#contact-jumbotron i {
+    /* color: gray; */
 }
 
 body {
@@ -117,4 +123,52 @@ body {
 
 .my-pic {
     border: 0;
+}
+
+.skill img {
+    cursor: pointer;
+}
+
+#contact-jumbotron .fa-envelope {
+    color: #dd4b39;
+}
+
+#contact-jumbotron .fa-wordpress {
+    color: #464646;
+}
+
+#contact-jumbotron .fa-wikipedia-w {
+    color: #21759b;
+}
+
+#contact-jumbotron .fa-facebook {
+    color: #3b5998;
+}
+
+#contact-jumbotron .fa-twitter {
+    color: #55acee;
+}
+
+#contact-jumbotron .fa-behance {
+    color: #1769ff;
+}
+
+#contact-jumbotron .fa-youtube {
+    color: #e52d27;
+}
+
+#contact-jumbotron .fa-github {
+    color: #333;
+}
+
+#contact-jumbotron .fa-google-plus {
+    color: #dd4b39;
+}
+
+#contact-jumbotron .fa-linkedin {
+    color: #0976b4;
+}
+
+#contact-jumbotron .fa-codepen {
+    color: #000;
 }
